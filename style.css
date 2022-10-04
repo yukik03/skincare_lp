@@ -1,0 +1,172 @@
+body{
+    width: 1100px;
+    margin: auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color:rgb(88, 71, 50);
+}
+.flexUl{
+    display: flex;
+    text-align: center;
+}
+.flexUl li{
+    width: 80px;
+    list-style: none;
+    margin: auto;
+}
+header a{
+    color:rgb(88, 71, 50);
+}
+h1 {
+    font-family: 'Bold 700 Italic';
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 50px;
+    color: rgb(105, 133, 95);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    font-weight: 600;
+}
+.topButton{
+    position: relative;
+    top: 322px;
+    left:325px;
+}
+.topButton a{
+    display:block;
+    padding-top:13px;
+}
+.topImg{
+    background-image: url(image/ordinary_products2.jpg);
+    height:455px;
+    background-size: cover;
+    background-position: center;
+    margin-top:-28px;
+}
+.commonMenu{
+    display: flex;
+}
+.commonMenu p{
+    padding-left:35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menuBar{
+    margin-left:auto;
+    padding:0 30px;
+}
+.topButton{
+    width: 430px;
+    margin: auto;
+    padding-right: 55px;
+}
+.topButton li{
+    border:solid 1px rgb(105, 133, 95);
+    background :rgb(105, 133, 95);
+    color:white;
+    border-radius: 30px;
+    width: 195px;
+    height: 50px;   
+}
+.topButton li:hover{
+    border:solid 1px rgb(168, 164, 135);
+    background :rgb(168, 164, 135);
+}
+.bodyTop{
+    display: flex;
+    width: 70%;
+    margin:auto;
+}
+.bodyTopText{
+    margin: auto;
+}
+.bodyImg{
+    width: 250px;
+    padding-right:30px;
+    height: auto;
+}
+.middleImg{
+    background-image: url(image/naturalleaf2.jpg);
+    height:300px;
+    background-size: cover;
+    background-position: center;
+    margin-top:30px;
+}
+.middleText{
+    width: 400px;
+    padding-left: 25%;
+}
+.bottomImg{
+    width: 600px;
+    margin: auto;
+    padding:0;
+}
+.bottomImg img{
+    width: 165px;
+}
+.bottomButton{
+    width: 500px;
+    margin: auto;
+}
+.bottomButton li{
+    border:solid 1px rgb(105, 133, 95);
+    background: rgb(105, 133, 95);
+    color:white;
+    border-radius: 30px;
+    width: 230px;
+    height: 50px;
+}
+.bottomButton li:hover{
+    border:solid 1px rgb(168, 164, 135);
+    background :rgb(168, 164, 135);
+}
+.bottomButton2 li{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: solid 1px rgb(86, 82, 64);
+    background: rgb(86, 82, 64);
+}
+.bottomButton2 li:hover{
+    border:solid 1px rgb(168, 164, 135);
+    background :rgb(168, 164, 135);
+}
+.bottomButton a{
+    display: block;
+    padding-top:13px;
+}
+.snsLink{
+    display: block;
+    text-align: center;
+    margin:auto;
+    font-size: 18px;
+}
+.snsLink i{
+    font-size: 24px;
+    color:rgb(88, 71, 50);
+}
+.snsLink i:hover{
+    color:rgb(105, 133, 95);
+}
+.bottomSpace{
+    margin-bottom: 110px;
+}
+.footerMenu{
+    background-color: rgb(168, 164, 135);
+    height: 80px;
+}
+small{
+    margin-left: auto;
+    padding-right:30px;    
+    display: block;
+    padding-top: 30px;
+}
+.commonColor{
+    color:rgb(88, 71, 50);
+}
+.right-space{
+    padding-right:6px;
+}
