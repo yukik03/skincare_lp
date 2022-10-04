@@ -41,7 +41,7 @@ li:hover{
     padding-top:13px;
 }
 .topImg{
-    background-image: url(image/ordinary_products2.jpg);
+    background-image: url(ordinary_products2.jpg);
     height:455px;
     background-size: cover;
     background-position: center;
@@ -90,7 +90,7 @@ li:hover{
     height: auto;
 }
 .middleImg{
-    background-image: url(image/naturalleaf2.jpg);
+    background-image: url(naturalleaf2.jpg);
     height:300px;
     background-size: cover;
     background-position: center;
