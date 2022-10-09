@@ -1,3 +1,4 @@
+/* ----------- common  START ----------- */
 body{
     width: 1100px;
     margin: auto;
@@ -13,9 +14,40 @@ body{
     list-style: none;
     margin: auto;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    font-weight: 600;
+}
+.commonMenu{
+    display: flex;
+}
+.commonMenu p{
+    padding-left:35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menuBar{
+    margin-left:auto;
+    padding:0 30px;
+}
+.bottomSpace{
+    margin-bottom: 110px;
+}
+.right-space{
+    padding-right:6px;
+}
+/* -----------  common END  ----------- */
+
+/* -----------  header  START  ----------- */
 header a{
     color:rgb(88, 71, 50);
 }
+
+/* -----------  header  END  ----------- */
+/* -----------  div-top  START  ----------- */
 h1 {
     font-family: 'Bold 700 Italic';
     position: relative;
@@ -23,13 +55,6 @@ h1 {
     left: 30px;
     font-size: 50px;
     color: rgb(105, 133, 95);
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-li:hover{
-    font-weight: 600;
 }
 .topButton{
     position: relative;
@@ -46,18 +71,6 @@ li:hover{
     background-size: cover;
     background-position: center;
     margin-top:-28px;
-}
-.commonMenu{
-    display: flex;
-}
-.commonMenu p{
-    padding-left:35px;
-    font-weight: bold;
-    font-size: 20px;
-}
-.menuBar{
-    margin-left:auto;
-    padding:0 30px;
 }
 .topButton{
     width: 430px;
@@ -76,6 +89,8 @@ li:hover{
     border:solid 1px rgb(168, 164, 135);
     background :rgb(168, 164, 135);
 }
+/*  ----------- div-top END  ----------- */
+/* -----------  div-body  START  ----------- */
 .bodyTop{
     display: flex;
     width: 70%;
@@ -151,9 +166,8 @@ li:hover{
 .snsLink i:hover{
     color:rgb(105, 133, 95);
 }
-.bottomSpace{
-    margin-bottom: 110px;
-}
+/*  ----------- div-body END  ----------- */
+/*  ----------- footer  START  ----------- */
 .footerMenu{
     background-color: rgb(168, 164, 135);
     height: 80px;
@@ -167,6 +181,4 @@ small{
 .commonColor{
     color:rgb(88, 71, 50);
 }
-.right-space{
-    padding-right:6px;
-}
+/* -----------  footer END  ----------- */
