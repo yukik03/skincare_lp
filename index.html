@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maxmum-scale=1, user-scalable=yes">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://yukik03.github.io/skincare_lp/style.css">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
@@ -13,18 +13,28 @@
     <header>
         <div class="commonMenu"><!--  commonMenu start -->
             <p>Yuki's Portfolio </p>
-            <ul class="flexUl menuBar">
+            <ul class="topMenu">
                 <li><a href="#">TOP</a></li>
                 <li><a href="#">CONCEPT</a></li>
                 <li><a href="#">MENU</a></li>
                 <li><a href="#">OTHERS</a></li>
             </ul>
+            <!-- <div class="acd">
+                <input id="acd-menu1" class="acd-menu" type="checkbox">
+                <label class="acd-label" for="acd-menu1">MENU</label>
+                <div class="acd-content">
+                    <a href="#"><p>TOP</p></a>
+                    <a href="#"><p>CONCEPT</p></a>
+                    <a href="#"><p>MENU</p></a>
+                    <a href="#"><p>OTHERS</p></a>
+                </div>
+            </div> -->
         </div><!--  commonMenu end -->
     </header>
-    <div><!--  top start -->
+    <div class="top"><!--  top start -->
         <div class="topImg bottomSpace"><!--  topImg start -->
             <h1>The Ordinary</h1>
-            <ul  class="flexUl topButton">
+            <ul  class="topButton">
                 <li><a href="#"><i class="fa-solid fa-cart-shopping right-space"></i>ONLINE&nbsp;STORE</a></li>
                 <li><a href="#"><i class="fa-solid fa-circle-notch right-space"></i>BRAND&nbsp;SITE</a></li>
             </ul>
@@ -44,22 +54,30 @@
             <h3>テキストテキスト</h3>
             <p>pタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキストpタグテキスト</p>
         </div><!--  middleText end -->
-        <ul  class="flexUl bottomImg bottomSpace">
-            <li><img src="image/ordinary_tube.jpg" alt="横並び画像"></li>
-            <li><img src="image/soap.jpg" alt="横並び画像"></li>
-            <li><img src="image/tube_cream.jpg" alt="横並び画像"></li>
-        </ul>
-        <p class="snsLink bottomSpace">
-            Follow Us&nbsp;――――――――――――――&nbsp;
-            <a href="#"><i class="fa-brands fa-instagram right-space"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter right-space"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook right-space"></i></a>
-        </p>
-        <ul class="flexUl bottomButton">
+        <div class="snsSec bottomSpace"><!--  snsSec start-->
+            <ul  class="snsImg bottomSpace">
+                <li><img src="image/ordinary_tube.jpg" alt="横並び画像"></li>
+                <li><img src="image/soap.jpg" alt="横並び画像"></li>
+                <li><img src="image/tube_cream.jpg" alt="横並び画像"></li>
+            </ul>
+            <p class="snsLink bottomSpace">
+                Follow Us&nbsp;――――――――――――――&nbsp;
+                <a href="#"><i class="fa-brands fa-instagram right-space"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter right-space"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook right-space"></i></a>
+            </p>
+            <p class="snsLink_responsive">
+                <a href="#"><i class="fa-brands fa-instagram right-space"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter right-space"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook right-space"></i></a>
+            </p>
+
+        </div><!--  snsSec end -->
+        <ul class="bottomButton">
             <li><a href="#"><i class="fa-solid fa-cart-shopping right-space"></i>ONLINE&nbsp;STORE</a></li>
             <li><a href="#"><i class="fa-solid fa-circle-notch right-space"></i>BRAND&nbsp;SITE</a></li>
         </ul>
-        <ul class="flexUl bottomButton bottomButton2 bottomSpace">
+        <ul class="bottomButton2 bottomSpace">
             <li><a href="#"><i class="fa-solid fa-list-ul right-space"></i>BRAND&nbsp;LIST</a></li>
         </ul>
 
@@ -68,14 +86,14 @@
     <footer>
         <div class="commonMenu">
             <p>Yuki's Portfolio </p>
-            <ul class="flexUl menuBar">
+            <ul class="bottomMenu">
                 <li><a class="commonColor" href="#">TOP</a></li>
                 <li><a class="commonColor" href="#">CONCEPT</a></li>
                 <li><a class="commonColor" href="#">MENU</a></li>
             </ul>
         </div>
-        <div class="commonMenu footerMenu">
-            <ul  class="flexUl">
+        <div class="commonMenu footerBar">
+            <ul class="footerMenu">
                 <li><a href="#">RECRUIT</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
