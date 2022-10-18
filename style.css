@@ -357,6 +357,10 @@ small{
     .footerBar{
         height: max-content;
     }
+    .footerMenu{
+        padding:15px 30px !important;
+    }
+    
     .snsLink{
         display: none !important;
     }
