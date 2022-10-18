@@ -73,7 +73,7 @@ h1 {
     display: flex;
     position: relative;
     top: 322px;
-    left:325px;
+    left:610px !important;
 }
 .topButton li{
     list-style: none;
@@ -137,6 +137,7 @@ h1 {
     margin: auto;
     padding:0;
     width: 600px;
+    margin-bottom: 40px !important;
 }
 .snsImg li{
     list-style: none;
@@ -147,6 +148,7 @@ h1 {
 }
 .bottomButton{
     display: flex;
+    width: 500px;
     margin: auto;
 }
 .bottomButton li{
@@ -230,7 +232,7 @@ small{
     margin-left: auto;
     padding-right:30px;    
     display: block;
-    padding-top: 0px !important;
+    padding-top: 30px;
 }
 .commonColor{
     color:rgb(88, 71, 50);
