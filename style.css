@@ -260,59 +260,20 @@ small{
         margin-bottom: 0px !important;
     }
     .top{
-        margin-bottom: 165px;
+        margin-bottom: 200px;
     }
-    /* .topMenu{
-        display: none;
-    } */
     .commonMenu{
         display: block !important;
     }
-    /* .acd{
-        display: block;
-    }
-    .acd-menu{
-        display: none;
-    }
-    .acd-label{
-        background-color: rgb(88, 71, 50);
-        color: white;
-        display: block !important;
-        width: 95px;
-        height: 65px;
-        text-align: center;
-        margin: 0px;
-    }
-    .acd-content{
-        /* border:solid 1px rgb(88, 71, 50); 
-        height: 0;
-        opacity: 0;
-        padding:0 10px;
-        transition: .5s;
-        visibility:hidden;
-    }
-    .acd-content p{
-        background-color:rgba(255,255,255,0.8);
-        height: 30px;
-        width: 95px;
-        padding:0px !important;
-        margin:0px;
-        text-align: center;
-    }
-    .acd-menu:checked + .acd-label + .acd-content{
-        height: 0px;
-        opacity: 1;
-        padding: 0px;
-        visibility: visible;
-    } */
-
+ 
     .topImg{
         width: 100% !important;
+        margin-bottom: 30px !important;
     }
     .topButton{
         display: block;
         left:15% !important;
-        top:370px !important;
+        top:390px !important;
     }
     .topButton li{
         margin-bottom: 10px;
@@ -353,6 +314,9 @@ small{
     .bottomButton li,.bottomButton2 li{
         margin: auto;
         margin-bottom: 10px;
+    }
+    .bottomButton2 li{
+        margin-bottom: 30px !important;
     }
     .footerBar{
         height: max-content;
